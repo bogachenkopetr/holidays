@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "kepler_std";
+  src: url("fonts/KeplerStd-Bold/KeplerStd-Bold.eot");
+  src: url("fonts/KeplerStd-Bold/KeplerStd-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/KeplerStd-Bold/KeplerStd-Bold.woff2") format("woff2"), url("fonts/KeplerStd-Bold/KeplerStd-Bold.woff") format("woff"), url("fonts/KeplerStd-Bold/KeplerStd-Bold.ttf") format("truetype"), url("fonts/KeplerStd-Bold/KeplerStd-Bold.svg#KeplerStd-Bold") format("svg");
+  font-style: normal;
+}

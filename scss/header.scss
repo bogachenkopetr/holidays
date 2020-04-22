@@ -4,5 +4,17 @@
 .menu_topnav{
     display: flex;
     justify-content:space-between;
-    padding: $menu-padding; // пример
+    
+    a{
+    font-size: 16px;
+    font-weight: bold;
+    color: $black;
+    }
+    
+    li{
+    margin-top: 30px;
+    }
 }
+
+
+

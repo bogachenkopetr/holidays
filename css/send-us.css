@@ -1,0 +1,7 @@
+.send_us {
+  background-image: url(../img/send_img.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}

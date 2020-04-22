@@ -1,0 +1,47 @@
+.footer{
+    background:#171d1c;
+    color: #fff;
+    padding: 50px 0 50px 0;
+}
+.footer_list{
+    display: flex;
+}
+.footer_list_left{
+    display: flex;
+    li{
+        font:normal 14px 'montserrat';
+        line-height: 25px;
+    }
+    
+    span{
+         font:normal 16px 'montserrat';
+         font-weight: 600; 
+    }
+}
+.foter_list_right{
+    margin-left: 250px;
+    
+    li{
+        font:normal 14px 'montserrat';
+        line-height: 25px;
+    }
+    
+    span{
+         font:normal 16px 'montserrat';
+         font-weight: 600; 
+    }
+}
+.list_left_information{
+    margin:0 40px 0 110px;
+}
+.list_left_experiences{
+    margin-right: 30px;
+}
+.list_left_themes{
+    margin-right: 70px;
+}
+.list_right_address{
+    text-align: right;
+}
+
+

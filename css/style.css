@@ -1,3 +1,43 @@
+@font-face {
+  font-family: "kepler_std";
+  src: url("../fonts/KeplerStd-Bold/KeplerStd-Bold.eot");
+  src: url("../fonts/KeplerStd-Bold/KeplerStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/KeplerStd-Bold/KeplerStd-Bold.woff2") format("woff2"), url("../fonts/KeplerStd-Bold/KeplerStd-Bold.woff") format("woff"), url("../fonts/KeplerStd-Bold/KeplerStd-Bold.ttf") format("truetype"), url("../fonts/KeplerStd-Bold/KeplerStd-Bold.svg#KeplerStd-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/monserat/regular/montserrat-regular-webfont.eot");
+  src: url("../fonts/monserat/regular/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/monserat/regular/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/monserat/regular/montserrat-regular-webfont.woff") format("woff"), url("../fonts/monserat/regular/montserrat-regular-webfont.ttf") format("truetype"), url("../fonts/monserat/regular/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/monserat/light/montserrat-light-webfont.eot");
+  src: url("../fonts/monserat/light/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/monserat/light/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/monserat/light/montserrat-light-webfont.woff") format("woff"), url("../fonts/monserat/light/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/monserat/light/montserrat-light-webfont.svg#montserratlight") format("svg");
+  font-weight: 300;
+  /* light*/
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/monserat/semibold/montserrat-semibold-webfont.eot");
+  src: url("../fonts/monserat/semibold/montserrat-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/monserat/semibold/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/monserat/semibold/montserrat-semibold-webfont.woff") format("woff"), url("../fonts/monserat/semibold/montserrat-semibold-webfont.ttf") format("truetype"), url("../fonts/monserat/semibold/montserrat-semibold-webfont.svg#montserratsemibold") format("svg");
+  font-weight: 600;
+  /*semibold*/
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/monserat/extrabold/montserrat-extrabold-webfont.eot");
+  src: url("../fonts/monserat/extrabold/montserrat-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/monserat/extrabold/montserrat-extrabold-webfont.woff2") format("woff2"), url("../fonts/monserat/extrabold/montserrat-extrabold-webfont.woff") format("woff"), url("../fonts/monserat/extrabold/montserrat-extrabold-webfont.ttf") format("truetype"), url("../fonts/monserat/extrabold/montserrat-extrabold-webfont.svg#montserratextrabold") format("svg");
+  font-weight: 800;
+  /*extrabold*/
+  font-style: normal;
+}
+/* font: monserrat
+font-weight: 300; */
 * {
   margin: 0;
   padding: 0;
@@ -10,11 +50,16 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 li {
   list-style: none;
+}
+
+.section_inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .header {
@@ -24,6 +69,208 @@ li {
 .menu_topnav {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+}
+.menu_topnav a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.menu_topnav li {
+  margin-top: 30px;
+}
+
+.why_us {
+  background: #ecf0f1;
+}
+
+.why_us_title {
+  text-align: center;
+}
+.why_us_title h4 {
+  font: bold 48px "kepler_std";
+  padding-top: 50px;
+}
+.why_us_title img {
+  padding: 30px 0 30px 0;
+}
+
+.why_us_list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.why_us_item {
+  margin-right: 75px;
+  font-size: 16px;
+}
+.why_us_item h5 {
+  margin: 25px 0 15px 0;
+  font: bold 24px "kepler_std";
+}
+.why_us_item p {
+  margin-bottom: 100px;
+  font: normal 16px "montserrat";
+  font-weight: 300;
+}
+
+.why_us_item:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  background: #171d1c;
+  color: #fff;
+  padding: 50px 0 50px 0;
+}
+
+.footer_list {
+  display: flex;
+}
+
+.footer_list_left {
+  display: flex;
+}
+.footer_list_left li {
+  font: normal 14px "montserrat";
+  line-height: 25px;
+}
+.footer_list_left span {
+  font: normal 16px "montserrat";
+  font-weight: 600;
+}
+
+.foter_list_right {
+  margin-left: 250px;
+}
+.foter_list_right li {
+  font: normal 14px "montserrat";
+  line-height: 25px;
+}
+.foter_list_right span {
+  font: normal 16px "montserrat";
+  font-weight: 600;
+}
+
+.list_left_information {
+  margin: 0 40px 0 110px;
+}
+
+.list_left_experiences {
+  margin-right: 30px;
+}
+
+.list_left_themes {
+  margin-right: 70px;
+}
+
+.list_right_address {
+  text-align: right;
+}
+
+.ideas {
+  background: #ecf0f1;
+}
+
+.ideas_title {
+  text-align: center;
+}
+.ideas_title h2 {
+  font: bold 48px "kepler_std";
+  padding-top: 180px;
+}
+.ideas_title img {
+  padding: 30px 0 30px 0;
+}
+
+.ideas_photo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.ideas_photo li {
+  width: 32%;
+}
+.ideas_photo img {
+  width: 100%;
+}
+
+.button_center_wrapper {
+  position: relative;
+}
+
+.ideas_button_center {
+  display: inline-block;
+  position: absolute;
+  background: #fff;
+  padding: 15px;
+  font: bold 24px "kepler_std", serif;
+  color: #fff;
+  left: 23px;
+  top: 165px;
+}
+
+.ideas_beach {
+  color: #454851;
+  display: block;
+  border: 1px solid #cccccc;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.ideas_group {
+  color: #454851;
+  display: block;
+  border: 1px solid #cccccc;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.ideas_city {
+  color: #454851;
+  display: block;
+  border: 1px solid #cccccc;
+  padding: 20px 74px;
+  text-align: center;
+}
+
+.slider {
+  background-image: url(../img/slider.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #000;
+  font: normal 40px sans-serif;
+  height: 690px;
+}
+
+.top_welcome h1 {
+  color: #fff;
+  padding-top: 320px;
+}
+
+.properties {
+  background: #ecf0f1;
+}
+
+.properties_title {
+  text-align: center;
+}
+.properties_title h3 {
+  font: bold 48px "kepler_std";
+  padding-top: 50px;
+}
+.properties_title img {
+  padding: 30px 0 30px 0;
+}
+
+.send_us {
+  background-image: url(../img/send_img.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
