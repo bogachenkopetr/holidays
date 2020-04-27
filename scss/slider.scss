@@ -16,22 +16,37 @@
 }
 
 .slider_form{
+    display: flex;
+    justify-content: space-between;
     position: relative;
     background: #fff;
     width: 970px;
     height: 160px;
+    padding:60px 110px 60px 40px;
     position:absolute;
     bottom: -80px;
     right: 260px;
     
-     input{
+    .form_input{
         width: 190px;
+        position: relative;
+        margin-top: 5px;
+    }
+    
+    input{
+        width:100%;
         padding: 5px 5px;
         font:16px 'montserrat', 300;
-        margin-top: 65px;
         border: 0;
         border-bottom: 1px solid #999999;
         color: #999999;
+    }
+    
+    img{
+        margin-left: -30px;
+        position: absolute;
+        right: 0;
+        top:15px;
     }
 }
 
@@ -43,9 +58,10 @@
     height: 40px;
     border: 0;
     border-radius: 100%;
-    bottom:60px;
-    right: 40px; 
+    bottom:50px;
+    right: 30px; 
 }
+
 
 
 

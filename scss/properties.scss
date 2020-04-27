@@ -17,8 +17,6 @@
 
 .properties_info{
     position: relative;
-    background: $white;
-    height: 300px;
     width: 280px;
     
     h4{
@@ -34,6 +32,7 @@
     
     img{
         padding-left: 15px;
+        vertical-align: top;
     }
 }
 
@@ -51,13 +50,19 @@
 
 .properties_photo_info{
     display: flex;
+    background: $white;
+    width: 50%;
 }
-
+.properties_photo{
+    width: 278px;
+    font-size: 0;
+}
 .properties_photo_slider{
-    
+    font-size: 0;
+    display: flex;
     img{
         height: 70px;
-        width: 90px;
+        width: 33.3333%;
     }
 }
 
