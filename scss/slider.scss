@@ -7,8 +7,50 @@
     color: $black;
     font:normal 40px sans-serif;
     height: 690px;
+    position: relative;
+    
+    h1{
+        color: $white;
+        padding-top: 320px;
+    }
 }
-.top_welcome h1{
-    color: $white;
-    padding-top: 320px;
+
+.slider_form{
+    position: relative;
+    background: #fff;
+    width: 970px;
+    height: 160px;
+    position:absolute;
+    bottom: -80px;
+    right: 260px;
+    
+     input{
+        width: 190px;
+        padding: 5px 5px;
+        font:16px 'montserrat', 300;
+        margin-top: 65px;
+        border: 0;
+        border-bottom: 1px solid #999999;
+        color: #999999;
+    }
 }
+
+.button_slider{
+    position: absolute;
+    background: #f31131;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 100%;
+    bottom:60px;
+    right: 40px; 
+}
+
+
+
+
+
+
+
+

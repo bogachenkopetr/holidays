@@ -9,32 +9,46 @@
     
     <section class="header">
         <div class="section_inner">
-            <ul class="menu_topnav">
-                <li><a href="#" title="Home">HOME</a></li>
-                <li><a href="# "title="EXPERIENCES">EXPERIENCES</a></li>
-                <img src="img/logo-top.png" alt="logo-top">
-                <li><a href="#" title="QUESTIONS">QUESTIONS</a></li>
-                <li><a href="#" title="CONTACT">CONTACT</a></li>
-            </ul>
+            <img src="img/logo-top.png" alt="logo-top">
+                <nav class="topnav">
+                    <ul class="menu_topnav">
+                        <li><a href="#" title="Home">HOME</a></li>
+                        <li><a href="# "title="EXPERIENCES">EXPERIENCES</a></li>
+                        <li><a href="#" title="QUESTIONS">QUESTIONS</a></li>
+                        <li><a href="#" title="CONTACT">CONTACT</a></li>
+                    </ul>
+                </nav>
         </div>
     </section>
     
     <section class="slider">
         <div class="section_inner">
-           <div class="top_welcome">
-               <h1>ENJOY FREEDOM LAND</h1>
-            </div>
+            <h1>ENJOY FREEDOM LAND</h1>
+            <div class="slider_form">
+                <div class="form_input">
+                    <input type="text" name="name" placeholder="Mauritius">
+                    <img src="img/slider_logo.png" alt="slider_logo.png">
+                    <input type="text" name="date" placeholder="24 Sept 2016">
+                    <img src="img/slider_logo.png" alt="slider_logo.png">
+                    <input type="text" name="date" placeholder="10 Oct 2016">
+                    <img src="img/slider_logo.png" alt="slider_logo.png">
+                    <input type="text" name="message" placeholder="5 Bedrooms">
+                    <img src="img/slider_logo.png" alt="slider_logo.png">
+                </div>
+                <button class="button_slider" type="radio">&#8594;</button>
+            </div>  
+            
         </div>
     </section>
     
     <section class="ideas">
         <div class="section_inner">
-            <header class="ideas_title">
+            <header class="ideas_header">
                 <h2>See latest vacation ideas</h2>
                 <img class="rhombus" src="img/rhombus.png" alt="rhombus">
             </header>
             <div class="ideas_photo_wrapper">
-                <ul class="ideas_photo">
+                <ul class="ideas_photos">
                     <li>
                         <div class="button_center_wrapper">
                             <a href="#"><img class="avatar" src="img/ideas_beach.png" alt="ideas_beach"></a>
@@ -60,17 +74,43 @@
     
     <section class="properties">
         <div class="section_inner">
-            <header class="properties_title">
+            <header class="properties_header">
                 <h3>Recent holiday locations</h3>
                 <img class="rhombus" src="img/rhombus.png" alt="rhombus">
             </header>
+            <div class="properties_photo_info_section">
+                <ul>
+                    <li class="properties_photo_info">
+                        <div class="properties_photo">
+                            <img src="img/thalie.png" alt="thalie">
+                            <div class="properties_photo_slider">
+                                <img src="img/thalie2.png" alt="thalie2">
+                                <img src="img/thalie3.png" alt="thalie3">
+                                <img src="img/thalie4.png" alt="thalie4">
+                            </div>
+                        </div>
+                        <div class="properties_info">
+                            <h4>Thalie 5</h4>
+                            <p>Thalie 5 is located on the exclusive Belle Riviere estate, which is home to several of Luxury Retreats’ finest villas in Mauritius.</p>
+                            <img class="properties_logo" src="img/bed.png" alt="bed.png">
+                            <img class="properties_logo" src="img/bath.png" alt="bath.png">
+                            <img class="properties_logo" src="img/beachfront.png" alt="beachfront.png">
+                            <img class="properties_logo" src="img/pool.png" alt="pool.png">
+                            <button class="button_properties">BOOK NOW</button>
+                        </div>
+                   </li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                </ul>
+            </div>
         </div>
     </section>
     
     <section class="why_us">
         <div class="section_inner">
-            <header class="why_us_title">
-                <h4>Why we are different</h4>
+            <header class="why_us_header">
+                <h5>Why we are different</h5>
                 <img class="rhombus" src="img/rhombus.png" alt="rhombus">
             </header>
             <div class="why_us_list">
@@ -78,7 +118,7 @@
                     <div class="icon_why_us">
                         <img src="img/tailor.png" alt="tailor">
                     </div>
-                        <h5>Tailor-Made Packages</h5>
+                        <h6>Tailor-Made Packages</h6>
                         <p>
                             When it comes to delivering the best planned holiday package to you, we strive to exceed your expectations. For us, it has to be spot-on. We do what we do in the ideal way possible.
                         </p>
@@ -87,7 +127,7 @@
                         <div class="icon_why_us">
                             <img src="img/best.png" alt="best">
                         </div>
-                        <h5>Best Experience</h5>
+                        <h6>Best Experience</h6>
                         <p>
                             At Purplerain Holidays, we choose to put forth an essence of our own expertise and firsthand experiences into our services and method of planning.
                         </p>
@@ -96,7 +136,7 @@
                         <div class="icon_why_us">
                             <img src="img/exquisite.png" alt="exquisite">
                         </div>
-                        <h5>Exquisite Service</h5>
+                        <h6>Exquisite Service</h6>
                         <p>
                            From the moment you make the first call to enquire, our services are geared up. From the time booking, to your stay and well after the trip as well, we will guide you and be at your back and 
                     </p>
@@ -107,6 +147,15 @@
     
     <section class="send_us">
         <div class="section_inner">
+            <div class="send_us_form">
+                <p>Send us a message</p>
+                <div class="form_input">
+                    <input type="text" name="name" placeholder="Your name">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="message" placeholder="Message">
+                </div>
+                <button class="button_send_us">SEND</button>
+            </div>  
         </div>
     </section>
     

@@ -4,4 +4,42 @@
     background-repeat: no-repeat;
     background-size:cover;
     text-align: center;
+    position: relative;
+}
+
+.send_us_form{
+    background: #fff;
+    width: 390px;
+    height: 400px;
+    position:absolute;
+    bottom: 0;
+    right: 180px;
+    
+    p{
+        color: #000;
+        font:bold 30px 'kepler_std';
+        padding: 40px 0 35px 0;
+    }
+    
+    input{
+        height: 44px;
+        width: 300px;
+        padding: 14px 20px;
+        font:normal 16px 'montserrat';
+        border: 0;
+        border-bottom: 1px solid #bfbfbf;
+    }
+}
+
+.button_send_us{
+    position: absolute;
+    background: #f31131;
+    color: #fff;
+    font:normal 14px 'kepler_std', serif;
+    padding: 10px 25px 10px 25px;
+    border-radius:45px;
+    border: 0;
+    bottom:40px;
+    left: 45px;
+    
 }

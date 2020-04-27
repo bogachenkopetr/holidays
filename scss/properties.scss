@@ -1,7 +1,8 @@
 .properties{
     background: $ligth-gray;
 }
-.properties_title{
+
+.properties_header{
     text-align: center;
     
     h3{
@@ -13,3 +14,61 @@
         padding: 30px 0 30px 0;
     }
 }
+
+.properties_info{
+    position: relative;
+    background: $white;
+    height: 300px;
+    width: 280px;
+    
+    h4{
+        text-align: center;
+        padding:30px 0 20px 0;
+        font: bold 30px 'kepler_std';
+    }
+    
+    p{
+        font: 16px 'montserrat', 300;
+        padding: 0 25px 20px 15px;
+    }
+    
+    img{
+        padding-left: 15px;
+    }
+}
+
+.button_properties{
+    position: absolute;
+    background: #f31131;
+    color: #fff;
+    font: 14px 'montserrat', 300;
+    padding: 13px 22px;
+    border-radius:45px;
+    border: 0; 
+    bottom:30px;
+    left:20px;
+}
+
+.properties_photo_info{
+    display: flex;
+}
+
+.properties_photo_slider{
+    
+    img{
+        height: 70px;
+        width: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

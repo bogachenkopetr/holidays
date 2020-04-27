@@ -1,7 +1,8 @@
 .ideas{
     background: $ligth-gray;
 }
-.ideas_title{
+
+.ideas_header{
     text-align: center;
     
     h2{
@@ -13,7 +14,8 @@
         padding: 30px 0 30px 0;
     }
 }
-.ideas_photo{
+
+.ideas_photos{
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
@@ -27,9 +29,11 @@
         width: 100%;
     }
 }
+
 .button_center_wrapper{
     position: relative;
 }
+
 .ideas_button_center{
     display: inline-block;
     position: absolute;
@@ -40,6 +44,7 @@
     left: 23px;
     top: 165px;
 }
+
 .ideas_beach{
     color:#454851; 
     display: block;
@@ -47,6 +52,7 @@
     padding: 20px 30px;
     text-align: center;
 }
+
 .ideas_group{
     color:#454851; 
     display: block;
@@ -54,6 +60,7 @@
     padding: 20px 50px;
     text-align: center;
 }
+
 .ideas_city{
     color:#454851; 
     display: block;
@@ -61,13 +68,3 @@
     padding: 20px 74px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-

@@ -1,10 +1,11 @@
 .why_us{
     background: $ligth-gray;
 }
-.why_us_title{
+
+.why_us_header{
     text-align: center;
     
-    h4{
+    h5{
         font: bold 48px 'kepler_std';
         padding-top: 50px;
     }
@@ -13,24 +14,28 @@
         padding: 30px 0 30px 0;
     }
 }
+
 .why_us_list{
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .why_us_item{
     margin-right: 75px;
     font-size: 16px;
-    h5{
+    
+    h6{
         margin: 25px 0 15px 0;
         font:bold 24px 'kepler_std';
     }
+    
     p{
         margin-bottom: 100px;
-        font:normal 16px 'montserrat';
-        font-weight: 300;
+        font: 16px 'montserrat', 300;
     }
 }
+
 .why_us_item:last-child{
     margin-right: 0;
 }
