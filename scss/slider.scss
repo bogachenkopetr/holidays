@@ -4,33 +4,73 @@
     background-size:cover;
     text-align: center;
     color: $black;
-    font:normal 40px sans-serif;
     height: 690px;
     position: relative;
+    z-index: 90;
     
     h1{
         color: $white;
-        padding-top: 320px;
+        padding-top: 120px;
+        font:bold 30px 'montserrat', serif;
     }
+    
+    @media screen and (min-width: 768px){
+        h1{
+            padding-top: 150px;
+            font-size:40px;
+        }
+    }
+    
+     @media screen and (min-width: 992px){
+        h1{
+            padding-top: 320px;
+            font-size:60px;
+        }
+    }
+                
 }
 
 .slider_form{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    position: absolute;
     background: $white;
-    width: 970px;
-    height: 160px;
-    padding:40px 110px 60px 40px;
+    width: 60%;
+    height: 300px;
+    padding:20px;
     position:absolute;
-    bottom: -80px;
-    right: 260px;
+    bottom: 120px;
+    left: 20%;
     
-    .form_input{
-        width: 190px;
-        position: relative;
+    @media screen and (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+        background: $white;
+        width: 90%;
+        height: 160px;
+        padding:30px 60px 30px 25px;
+        bottom: -80px;
+        left: 5%;
     }
     
+    @media screen and (min-width: 992px){
+        width: 970px;
+        left: 270px;
+        padding:40px 110px 60px 40px;
+    }
+}
+        
+.form_input{
+    width: 100%;
+    position: relative;
+    margin: 15px 0;
+
+    @media screen and (min-width: 768px){
+        margin: 0 8px;
+        }
+
+    @media screen and (min-width: 992px){
+        width: 190px;
+        }
+
     input{
         width:100%;
         padding-bottom: 15px;
@@ -38,31 +78,45 @@
         border: 0;
         border-bottom: 1px solid #b8b8b8;
         color: #b8b8b8;
-        
+
         &:focus{
             color:#454851;
             border-bottom: 1px solid #454851;
+            }
         }
-}
-    
+
     img{
         margin-left: -30px;
         position: absolute;
-        right: 0;
-        top:25px;
+        right:0;
+        top:2px;
     }
 }
 
 .button_slider{
     position: absolute;
     background: #f31131;
-    color: #fff;
-    width: 40px;
-    height: 40px;
+    color: $white;
+    width: 30px;
+    height: 30px;
     border: 0;
     border-radius: 100%;
-    bottom:60px;
-    right: 30px; 
+    bottom:30px;
+    right: 130px; 
+    
+    @media screen and (min-width: 768px){
+        width: 30px;
+        height: 30px;
+        top:50px;
+        right: 20px; 
+    }
+    
+    @media screen and (min-width: 992px){
+        width: 40px;
+        height: 40px;
+        bottom:60px;
+        right: 30px; 
+    }
 }
 
 
