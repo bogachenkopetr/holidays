@@ -496,7 +496,7 @@ li {
   }
 }
 
-.properties_photo_album li {
+.properties_photo_album > li {
   width: 48%;
   margin-bottom: 4%;
 }
@@ -542,6 +542,7 @@ li {
 .properties_info {
   position: relative;
   width: 150px;
+  background: #fff;
 }
 @media screen and (min-width: 768px) {
   .properties_info {
@@ -561,8 +562,8 @@ li {
 }
 @media screen and (min-width: 992px) {
   .properties_info h4 {
-    padding: 30px 0 20px 15px;
-    font: bold 28px "kepler_std";
+    padding: 30px 0 10px 15px;
+    font: bold 26px "kepler_std";
   }
 }
 .properties_info p {
@@ -577,12 +578,13 @@ li {
 }
 @media screen and (min-width: 992px) {
   .properties_info p {
-    font: 16px "montserrat";
+    font: 14px "montserrat";
     padding: 0 25px 20px 15px;
   }
 }
 .properties_info img {
   padding-left: 15px;
+  /*?????????7*/
   vertical-align: top;
 }
 @media screen and (min-width: 768px) {
@@ -597,30 +599,26 @@ li {
 }
 
 .button_properties {
-  position: absolute;
   background: #f31131;
   color: #fff;
   font: 12px "montserrat";
   padding: 10px 15px;
   border-radius: 45px;
   border: 0;
-  bottom: 30px;
-  left: 20px;
+  margin: 35px 0 0 10px;
 }
 @media screen and (min-width: 768px) {
   .button_properties {
     font: 10px "montserrat";
     padding: 7px 5px;
-    bottom: 10px;
-    left: 15px;
+    margin: 10px 0 0 10px;
   }
 }
 @media screen and (min-width: 992px) {
   .button_properties {
     font: 14px "montserrat";
     padding: 12px 22px;
-    bottom: 20px;
-    left: 20px;
+    margin: 30px 0 0 15px;
   }
 }
 
@@ -630,24 +628,23 @@ li {
 
 .conditions li {
   position: relative;
+  font-size: 0;
 }
 .conditions li:hover .hint {
   display: inline-block;
 }
 .conditions li .quantity {
-  font-size: 10px;
-  margin-left: 22px;
+  font-size: 14px;
 }
 @media screen and (min-width: 768px) {
   .conditions li .quantity {
-    margin-left: 17px;
-    font-size: 12px;
+    margin-left: 7px;
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 992px) {
   .conditions li .quantity {
     margin-left: 10px;
-    font-size: 12px;
   }
 }
 .conditions img {
