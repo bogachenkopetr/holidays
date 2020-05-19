@@ -10,12 +10,12 @@
         padding-top: 20px;
         
         @media screen and (min-width: 768px){
-            font: bold 28px 'kepler_std';
+            font-size:28px;
             padding-top: 20px;    
         }
         
         @media screen and (min-width: 992px){
-            font: bold 48px 'kepler_std';
+            font-size:48px;
             padding-top: 50px;    
         }
     }
@@ -44,8 +44,13 @@
 }
 
 .properties_photo_album > li{
-    width: 48%;
+    width: 100%;
     margin-bottom: 4%;
+    
+    @media screen and (min-width: 768px){
+        width: 49%;
+    }
+
 }
 
 .properties_photo_album .branding{
@@ -59,12 +64,13 @@
 .properties_photo_info{
     display: flex;
     background: $white;
-    width: 50%;
 }
+
 .properties_photo{
-    width: 278px;
+    flex: 0 0 55%;
     font-size: 0;
 }
+
 .properties_photo_slider{
     font-size: 0;
     display: flex;
@@ -74,7 +80,7 @@
         width: 33.3333%;
         
         @media screen and (min-width: 768px){
-        height: 42px;
+        height: 60px;
         }
         
         @media screen and (min-width: 992px){
@@ -86,55 +92,38 @@
 
 .properties_info{
     position: relative;
-    width: 150px;
     background: $white;
-    //max-width: 260px;
-    //overflow: hidden;
+    padding: 10px;
     
-    @media screen and (min-width: 768px){
-        width: 280px;    
+    @media screen and (min-width: 992px){
+        padding: 20px;   
     }
     h4{
         text-align: left;
-        padding:15px 0 10px 10px;
+        margin-top: 5px;
         font: bold 20px 'kepler_std';
-        
-        @media screen and (min-width: 768px){
-            padding:10px 0 5px 10px;
-            font: bold 20px 'kepler_std';    
-        }
+        line-height: 1;
         
         @media screen and (min-width: 992px){
-            padding:30px 0 10px 15px;
-            font: bold 26px 'kepler_std';    
+            margin-top: 10px;
+            font-size:26px;    
         }
     }
     
     p{
-        font: 13px 'montserrat';
-        padding: 0 10px 10px 10px;
+        font: 12px 'montserrat';
+        line-height: 1.3;
+        margin: 10px 0;
         
         @media screen and (min-width: 768px){
-            font: 12px 'montserrat';
-            padding: 0 10px 5px 10px;    
+            max-height: 75px;
+            overflow: hidden;
         }
-        
         @media screen and (min-width: 992px){
-            font: 14px 'montserrat';
-            padding: 0 25px 20px 15px;    
-        }
-    }
-    
-    img{
-        padding-left: 15px;/*?????????7*/
-        vertical-align: top;
-    
-        @media screen and (min-width: 768px){
-            padding-left: 10px;
-        }
-        
-        @media screen and (min-width: 992px){
-            padding-left: 15px;
+            font-size: 14px;
+            margin: 20px 0; 
+            max-height:95px;
+            line-height: 1.4;
         }
     }
 }
@@ -146,53 +135,73 @@
     padding: 10px 15px;
     border-radius:45px;
     border: 0;
-    margin: 35px 0 0 10px;
+    margin-top: 15px;
     
     @media screen and (min-width: 768px){
-        font: 10px 'montserrat';
-        padding: 7px 5px; 
-        margin: 10px 0 0 10px;
+        font-size:10px;
+        padding: 8px 9px 7px; 
+        margin: 10px 0 0;
     }
     
     @media screen and (min-width: 992px){
-        font: 14px 'montserrat';
-        padding: 12px 22px; 
-        margin: 30px 0 0 15px;
+        font-size:14px;
+        padding: 12px 16px 10px; 
+        margin: 15px 0 0;
     }
 }
 
 .conditions{
     display: flex;
-}
-
-.conditions{
+    
     li{
         position: relative;
         font-size: 0;
+        margin-left: 4%;
+        width: 22%;
+        text-align: center;
+        
+        &:first-child{
+            margin-left: 0;
+        }
+        
         &:hover{
             .hint{
                 display: inline-block;
             }
         }
-        .quantity{
-            font-size: 14px;
-            
-            @media screen and (min-width: 768px){
-                margin-left: 7px;
-                font-size: 16px;
-            }
-            
-            @media screen and (min-width: 992px){
-                margin-left:10px;
-            }
+        
+        @media screen and (min-width: 768px){
+            width: auto;
+            margin-left: 5px;
+            text-align: left;
+        }
+        @media screen and (min-width: 992px){
+            margin-left: 15px;
         }
     }
     
     img{
         z-index: 100;
+        vertical-align: top;
         
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 992px){
             
+        }
+    }
+    
+    .quantity{
+        font-size: 12px;
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+
+        @media screen and (min-width: 768px){
+            margin:2px 0 0 5px;
+            display: inline-block;
+        }
+
+        @media screen and (min-width: 992px){
+            margin-left:10px;
         }
     }
     
@@ -202,7 +211,7 @@
         color: $white;
         padding:2px 6px;
         top:0;
-        left: 45px;
+        left: 100%;
         z-index: 110;
         display: none;
         
@@ -220,18 +229,4 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
