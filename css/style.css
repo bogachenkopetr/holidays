@@ -562,6 +562,12 @@ li {
 @media screen and (min-width: 992px) {
   .properties_info h4 {
     margin-top: 10px;
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .properties_info h4 {
+    margin-top: 10px;
     font-size: 26px;
   }
 }
@@ -578,6 +584,12 @@ li {
 }
 @media screen and (min-width: 992px) {
   .properties_info p {
+    font-size: 13px;
+    max-height: 80px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .properties_info p {
     font-size: 14px;
     margin: 20px 0;
     max-height: 95px;
@@ -585,7 +597,7 @@ li {
   }
 }
 
-.button_properties {
+.properties_book_button {
   background: #f31131;
   color: #fff;
   font: 12px "montserrat";
@@ -595,14 +607,21 @@ li {
   margin-top: 15px;
 }
 @media screen and (min-width: 768px) {
-  .button_properties {
+  .properties_book_button {
     font-size: 10px;
     padding: 8px 9px 7px;
     margin: 10px 0 0;
   }
 }
 @media screen and (min-width: 992px) {
-  .button_properties {
+  .properties_book_button {
+    font-size: 12px;
+    padding: 10px 12px 9px;
+    margin: 20px 0 0;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .properties_book_button {
     font-size: 14px;
     padding: 12px 16px 10px;
     margin: 15px 0 0;
@@ -633,6 +652,11 @@ li {
   }
 }
 @media screen and (min-width: 992px) {
+  .conditions li {
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 1100px) {
   .conditions li {
     margin-left: 15px;
   }
