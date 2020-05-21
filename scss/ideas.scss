@@ -10,12 +10,12 @@
         padding-top: 40px;
         
         @media screen and (min-width: 768px){
-            font: bold 30px 'kepler_std';
+            font-size:30px;
             padding-top: 120px; 
         }
         
          @media screen and (min-width: 992px){
-            font: bold 48px 'kepler_std';
+            font-size:48px;
             padding-top: 180px; 
         }
     }
@@ -62,23 +62,23 @@
     }
 }
 
-.button_center_wrapper{
+.ideas_item_wrapper{
     position: relative;
 }
 
 .ideas_button_center{
     display: inline-block;
     position: absolute;
-    background: #fff;
+    background: $white;
     padding: 15px;
-    font: bold 20px 'kepler_std', serif;
-    color: #fff;
+    font-size:20px;
+    color:$white;
     left: 65px;
     top: 185px;
     
     @media screen and (min-width: 768px){
         padding: 10px;
-        font: bold 16px 'kepler_std', serif;
+        font-size:16px;
         left: 18px;
         top: 115px;       
     }
@@ -92,9 +92,9 @@
 }
 
 .ideas_beach{
-    color:#454851; 
+    color:$dark-gray;
     display: block;
-    border: 1px solid #cccccc;
+    border: 1px solid $gray;
     padding: 20px 42px; 
     text-align: center;
     
@@ -108,9 +108,9 @@
 }
 
 .ideas_group{
-    color:#454851; 
+    color:$dark-gray; 
     display: block;
-    border: 1px solid #cccccc;
+    border: 1px solid $gray;
     padding: 20px 60px; 
     text-align: center;
     
@@ -124,9 +124,9 @@
 }
 
 .ideas_city{
-    color:#454851; 
+    color:$dark-gray; 
     display: block;
-    border: 1px solid #cccccc;
+    border: 1px solid $gray;
     padding: 20px 80px; 
     text-align: center;
     

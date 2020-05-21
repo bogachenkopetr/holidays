@@ -5,7 +5,7 @@
 .properties_header{
     text-align: center;
     
-    h3{
+    h2{
         font: bold 24px 'kepler_std';
         padding-top: 20px;
         
@@ -50,7 +50,6 @@
     @media screen and (min-width: 768px){
         width: 49%;
     }
-
 }
 
 .properties_photo_album .branding{
@@ -80,12 +79,12 @@
         width: 33.3333%;
         
         @media screen and (min-width: 768px){
-        height: 60px;
+            height: 60px;
         }
         
         @media screen and (min-width: 992px){
-        height: 70px;
-        width: 33.3333%;
+            height: 70px;
+            width: 33.3333%;
         }
     }
 }
@@ -98,7 +97,8 @@
     @media screen and (min-width: 992px){
         padding: 20px;   
     }
-    h4{
+    
+    h3{
         text-align: left;
         margin-top: 5px;
         font: bold 20px 'kepler_std';
@@ -225,7 +225,7 @@
     
     .hint{
         position: absolute;
-        background: #454851;
+        background:$dark-gray;
         color: $white;
         padding:2px 6px;
         top:0;
