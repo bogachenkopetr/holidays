@@ -18,14 +18,21 @@
     
     @media screen and (min-width: 992px){
         img{
-            height: 100%;
-            margin: 0;
+            height: 65px;
             display: inline-block;
             position: absolute;
-            left: 37%;
+            left: 34%;
             top: 0;
         }
     }
+    
+    /*@media screen and (min-width: 1100px){
+        img{
+            height: 100%;
+            margin: 0;
+            left: 37%;
+        }
+    }*/
 }
 
  .burger_menu{
@@ -58,6 +65,7 @@
         display: none;
     }
 }
+
 .topnav{
     position: absolute;
     top:0;
@@ -75,6 +83,7 @@
         display: block;
     }
 }
+
 .menu_topnav{
     display: block;
     background: $white;
@@ -83,7 +92,6 @@
          display: flex;
          justify-content:space-between;
          background:transparent;
-        
     }
     
     a{
@@ -96,8 +104,9 @@
         border-bottom: 1px solid $black;
         
         &:first-child{ 
-             border-top: 1px solid #000;
+             border-top: 1px solid $black;
         }
+        
         @media screen and (min-width: 992px){
             margin: 30px 0;
             padding: 0;

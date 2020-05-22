@@ -16,7 +16,7 @@
     
     @media screen and (min-width: 768px){
         h1{
-            padding-top: 150px;
+            padding-top: 280px;
             font-size:40px;
         }
     }
@@ -24,9 +24,16 @@
      @media screen and (min-width: 992px){
         h1{
             padding-top: 320px;
-            font-size:60px;
+            font-size:50px;
         }
     }
+    
+    /*@media screen and (min-width: 1100px){
+        h1{
+            padding-top: 320px;
+            font-size:60px;
+        }
+    }*/
                 
 }
 
@@ -45,17 +52,23 @@
         justify-content: space-between;
         background: $white;
         width: 90%;
-        height: 160px;
+        height: 120px;
         padding:30px 60px 30px 25px;
         bottom: -80px;
         left: 5%;
     }
     
     @media screen and (min-width: 992px){
+        height: 140px;
+        padding:40px 90px 40px 30px;
+    }
+    
+    /*@media screen and (min-width: 1100px){
         width: 970px;
         left: 270px;
+        height: 160px;
         padding:40px 110px 60px 40px;
-    }
+    }*/
 }
         
 .form_input{
@@ -76,12 +89,12 @@
         padding-bottom: 15px;
         font:16px 'montserrat', 300;
         border: 0;
-        border-bottom: 1px solid #b8b8b8;
-        color: #b8b8b8;
+        border-bottom: 1px solid $gray;
+        color: $gray;
 
         &:focus{
-            color:#454851;
-            border-bottom: 1px solid #454851;
+            color:$dark-gray;
+            border-bottom: 1px solid $dark-gray;
             }
         }
 
@@ -95,7 +108,7 @@
 
 .button_slider{
     position: absolute;
-    background: #f31131;
+    background: $ligth-red;
     color: $white;
     width: 30px;
     height: 30px;
