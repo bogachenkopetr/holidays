@@ -1,166 +1,116 @@
-.ideas{
+.ideas {
     background: $ligth-gray;
 }
 
-.ideas_header{
+.ideas_header {
     text-align: center;
     
-    h2{
+    h2 {
         font: bold 24px 'kepler_std';
         padding-top: 40px;
         
-        @media screen and (min-width: 768px){
-            font-size:30px;
+        @media screen and (min-width: 768px) {
+            font-size: 30px;
             padding-top: 120px; 
         }
         
-         @media screen and (min-width: 992px){
-            font-size:48px;
+         @media screen and (min-width: 992px) {
+            font-size: 48px;
             padding-top: 180px; 
         }
     }
     
-    img{
+    img {
         padding: 15px 0;
         
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 768px) {
             padding: 20px 0;    
         }
         
-        @media screen and (min-width: 992px){
+        @media screen and (min-width: 992px) {
             padding: 30px 0;    
         }
     }
 }
 
-.ideas_photos{
+.ideas_photos {
     padding-bottom: 30px;
     text-align: center;
     
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         display: flex;
         justify-content: space-between; 
         padding-bottom: 50px;
     }
     
-    li{
-        margin-bottom: 3%;
+    li {
+        margin: 0 auto 3%;
+        width: 100%;
+        max-width: 360px;
         
         &:last-child{
             margin-bottom: 0;
         }
         
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 768px) {
             width: 32%;    
         }
     }
     
-    img{
-        @media screen and (min-width: 768px){
+    img {
             width: 100%;
-        }
     }
 }
 
-.ideas_item_wrapper{
+.ideas_item_wrapper {
     position: relative;
 }
 
-.ideas_button_center{
+.ideas_button_center {
     display: inline-block;
     position: absolute;
     background: $white;
     padding: 15px;
     font: bold 20px 'kepler_std';
-    color:$white;
-    left: 65px;
-    top: 185px;
+    color: $white;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
     
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         padding: 10px;
-        font-size:16px;
-        left: 18px;
-        top: 115px;       
+        font-size: 16px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;       
     }
     
-    @media screen and (min-width: 992px){
-        font-size:20px;
-        left: 32px;
-        top: 160px;       
+    @media screen and (min-width: 992px) {
+        font-size: 20px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;       
     }
     
-    @media screen and (min-width: 1100px){
-        padding: 15px;
-        font-size:24px;
-        left: 23px;
-        top: 165px;       
+    a {
+        color: $dark-gray;
+        display: block;
+        border: 1px solid $gray;
+        padding: 20px; 
+        text-align: center;
+        max-height: 65px;
+        overflow: hidden;
+
+        @media screen and (min-width: 768px) {
+            padding: 10px;    
+        }
+
+        @media screen and (min-width: 992px) {
+            padding: 15px;    
+        }
+
+        @media screen and (min-width: 1100px) {
+            padding: 20px;    
+        }
     }
 }
-
-.ideas_beach{
-    color:$dark-gray;
-    display: block;
-    border: 1px solid $gray;
-    padding: 20px 42px; 
-    text-align: center;
-    
-    @media screen and (min-width: 768px){
-        padding: 10px 15px;    
-    }
-    
-    @media screen and (min-width: 992px){
-        padding: 15px 20px;    
-    }
-    
-    @media screen and (min-width: 1100px){
-        padding: 20px 30px;    
-    }
-}
-
-.ideas_group{
-    color:$dark-gray; 
-    display: block;
-    border: 1px solid $gray;
-    padding: 20px 60px; 
-    text-align: center;
-    
-    @media screen and (min-width: 768px){
-        padding: 10px 30px; 
-    }
-    
-    @media screen and (min-width: 992px){
-        padding: 15px 37px;    
-    }
-    
-    @media screen and (min-width: 1100px){
-        padding: 20px 50px;    
-    }
-}
-
-.ideas_city{
-    color:$dark-gray; 
-    display: block;
-    border: 1px solid $gray;
-    padding: 20px 80px; 
-    text-align: center;
-    
-    @media screen and (min-width: 768px){
-        padding: 10px 45px;  
-    }
-    
-    @media screen and (min-width: 992px){
-        padding: 15px 57px;    
-    }
-    
-    @media screen and (min-width: 1100px){
-        padding: 20px 75px;    
-    }
-}
-
-
-
-
-
-
-
-
