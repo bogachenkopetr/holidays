@@ -1,23 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'montserrat', sans-serif;
+    min-width: 480px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.section_inner{
+.section_inner {
     max-width: 1140px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0 30px;
 }

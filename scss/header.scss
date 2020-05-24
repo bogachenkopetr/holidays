@@ -1,52 +1,51 @@
-.header{
-    background:$white;
-    position: relative;
+.header {
+    background: $white;
     height: 80px;
     text-align: center;
     
-    img{
-        height: 50px;
-        margin: 15px 0;
+    .section_inner {
+        position: relative;
     }
     
-    @media screen and (min-width: 768px){
-        img{
+    img {
+        display: inline-block;
+        height: 50px;
+        margin: 15px auto;
+    }
+    
+    @media screen and (min-width: 768px) {
+        img {
             height: 60px;
-            margin: 10px 0;
+            margin: 10px auto;
         }
     }
     
-    @media screen and (min-width: 992px){
-        img{
-            height: 100%;
-            margin: 0;
-            display: inline-block;
-            position: absolute;
-            left: 37%;
-            top: 0;
+    @media screen and (min-width: 992px) {
+        img {
+            height: 65px;
         }
     }
 }
 
- .burger_menu{
+ .burger_menu {
     position: absolute;
     color: $black;
     font-size: 22px;
     border-radius: none;
-    background:0;
+    background: 0;
     border: 0;
     left: 30px;
     top: 25px;
     
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px) {
         display: none;
     }  
 }
 
-.burger_close{
+.burger_close {
     position: absolute;
-    left:6px;
-    top:0;
+    left: 6px;
+    top: 0;
     padding: 20px;
     color: $black;
     font-size: 60px;
@@ -54,61 +53,61 @@
     background: none;
     border: 0;
     
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px) {
         display: none;
     }
 }
-.topnav{
+
+.topnav {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
-    display: block;
     width: 100%;
     text-align: left;
     padding-top: 80px;
     z-index: 100;
     display: none;
     
-    @media screen and (min-width: 992px){
-        padding: 0;
-        position: relative;
+    @media screen and (min-width: 992px) {
+        padding: 0 30px;
         display: block;
     }
 }
-.menu_topnav{
+
+.menu_topnav {
     display: block;
     background: $white;
     
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px) {
          display: flex;
-         justify-content:space-between;
-         background:transparent;
-        
+         justify-content: space-between;
+         background: transparent;
     }
     
-    a{
-        font:bold 16px 'montserrat';
+    a {
+        font: bold 16px 'montserrat';
         color: $black;
     }
     
-    li{
+    li {
         padding: 15px 20px;
         border-bottom: 1px solid $black;
         
         &:first-child{ 
-             border-top: 1px solid #000;
+            border-top: 1px solid $black;
         }
-        @media screen and (min-width: 992px){
-            margin: 30px 0;
+        
+        @media screen and (min-width: 992px) {
+            margin: 33px 0 30px;
             padding: 0;
             border: 0;
             
-            &:first-child{ 
-                border:0;
-        }
+            &:first-child { 
+                border: 0;
+            }
         
-            &:nth-child(2){
-                margin-right:395px;
+            &:nth-child(2) {
+                margin-right: 395px;
             }
         }
     }
