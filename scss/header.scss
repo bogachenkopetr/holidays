@@ -25,12 +25,6 @@
             height: 65px;
         }
     }
-    
-    @media screen and (min-width: 1200px) {
-        img{
-            height: 100%;
-        }
-    }
 }
 
  .burger_menu {
@@ -75,7 +69,7 @@
     display: none;
     
     @media screen and (min-width: 992px) {
-        padding: 0 20px;
+        padding: 0 30px;
         display: block;
     }
 }
@@ -100,11 +94,11 @@
         border-bottom: 1px solid $black;
         
         &:first-child{ 
-             border-top: 1px solid $black;
+            border-top: 1px solid $black;
         }
         
         @media screen and (min-width: 992px) {
-            margin: 35px 0 30px;
+            margin: 33px 0 30px;
             padding: 0;
             border: 0;
             
