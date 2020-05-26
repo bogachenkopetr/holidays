@@ -83,9 +83,8 @@
     }
     
     p {
-        margin-bottom: 30px;
         font: 13px 'montserrat';
-        padding: 0 35px;
+        padding: 0 35px 30px;
         
         @media screen and (min-width: 768px) {
             font-size: 14px;

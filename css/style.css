@@ -264,9 +264,8 @@ li {
   }
 }
 .why_us_item p {
-  margin-bottom: 30px;
   font: 13px "montserrat";
-  padding: 0 35px;
+  padding: 0 35px 30px;
 }
 @media screen and (min-width: 768px) {
   .why_us_item p {
@@ -578,9 +577,15 @@ li {
   width: 100%;
   margin-bottom: 4%;
 }
+.properties_photo_album > li:last-child {
+  margin-bottom: 0;
+}
 @media screen and (min-width: 768px) {
   .properties_photo_album > li {
     width: 49%;
+  }
+  .properties_photo_album > li:last-child {
+    margin-bottom: 4%;
   }
 }
 
