@@ -1,0 +1,100 @@
+.why_us {
+    background: $ligth-gray;
+}
+
+.why_us_header {
+    text-align: center;
+    
+    h2 {
+        font: bold 24px 'kepler_std';
+        padding-top: 40px;
+        
+        @media screen and (min-width: 768px) {
+            font-size: 28px;
+            padding-top: 30px;
+        }
+        
+        @media screen and (min-width: 992px) {
+            font-size: 48px;
+            padding-top: 50px;
+        }
+    }
+    
+    img {
+        padding: 15px 0;
+        
+        @media screen and (min-width: 768px) {
+            padding: 20px 0;
+        }
+        
+        @media screen and (min-width: 992px) {
+            padding: 30px 0;
+        }
+    }
+}
+
+.why_us_list {
+   text-align: center;
+    
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.why_us_item {
+    @media screen and (min-width: 768px) {
+        margin-right: 40px;
+        
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        margin-right: 65px;
+    }
+    
+    img {
+        width: 70px;
+        
+        @media screen and (min-width: 768px) {
+            width: 80px;
+        }
+        
+        @media screen and (min-width: 992px) {
+            width: 100px;
+        }
+    }
+    
+    h3 {
+        margin: 15px 0 10px;
+        font: bold 18px 'kepler_std';
+        
+        @media screen and (min-width: 768px) {
+            margin: 15px 0 10px;
+            font-size: 20px;
+        }
+        
+        @media screen and (min-width: 992px) {
+            margin: 25px 0 15px;
+            font-size: 24px;
+        }
+    }
+    
+    p {
+        font: 13px 'montserrat';
+        padding: 0 35px 30px;
+        
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+            margin-bottom: 50px;
+            padding: 0;
+        }
+        
+        @media screen and (min-width: 992px) {
+            font-size: 16px;
+            margin-bottom: 100px;
+        }
+    }
+}

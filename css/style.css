@@ -174,6 +174,113 @@ li {
   }
 }
 
+.why_us {
+  background: #ecf0f1;
+}
+
+.why_us_header {
+  text-align: center;
+}
+.why_us_header h2 {
+  font: bold 24px "kepler_std";
+  padding-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .why_us_header h2 {
+    font-size: 28px;
+    padding-top: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .why_us_header h2 {
+    font-size: 48px;
+    padding-top: 50px;
+  }
+}
+.why_us_header img {
+  padding: 15px 0;
+}
+@media screen and (min-width: 768px) {
+  .why_us_header img {
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .why_us_header img {
+    padding: 30px 0;
+  }
+}
+
+.why_us_list {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .why_us_list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .why_us_item {
+    margin-right: 40px;
+  }
+  .why_us_item:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .why_us_item {
+    margin-right: 65px;
+  }
+}
+.why_us_item img {
+  width: 70px;
+}
+@media screen and (min-width: 768px) {
+  .why_us_item img {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .why_us_item img {
+    width: 100px;
+  }
+}
+.why_us_item h3 {
+  margin: 15px 0 10px;
+  font: bold 18px "kepler_std";
+}
+@media screen and (min-width: 768px) {
+  .why_us_item h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .why_us_item h3 {
+    margin: 25px 0 15px;
+    font-size: 24px;
+  }
+}
+.why_us_item p {
+  font: 13px "montserrat";
+  padding: 0 35px 30px;
+}
+@media screen and (min-width: 768px) {
+  .why_us_item p {
+    font-size: 14px;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .why_us_item p {
+    font-size: 16px;
+    margin-bottom: 100px;
+  }
+}
+
 .ideas {
   background: #ecf0f1;
 }
@@ -470,9 +577,15 @@ li {
   width: 100%;
   margin-bottom: 4%;
 }
+.properties_photo_album > li:last-child {
+  margin-bottom: 0;
+}
 @media screen and (min-width: 768px) {
   .properties_photo_album > li {
     width: 49%;
+  }
+  .properties_photo_album > li:last-child {
+    margin-bottom: 4%;
   }
 }
 
