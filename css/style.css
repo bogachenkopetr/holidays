@@ -225,6 +225,9 @@ li {
   .why_us_item {
     margin-right: 40px;
   }
+  .why_us_item:last-child {
+    margin-right: 0;
+  }
 }
 @media screen and (min-width: 992px) {
   .why_us_item {
@@ -245,29 +248,29 @@ li {
   }
 }
 .why_us_item h3 {
-  margin: 15px 0 10px 0;
+  margin: 15px 0 10px;
   font: bold 18px "kepler_std";
 }
 @media screen and (min-width: 768px) {
   .why_us_item h3 {
-    margin: 15px 0 10px 0;
+    margin: 15px 0 10px;
     font-size: 20px;
   }
 }
 @media screen and (min-width: 992px) {
   .why_us_item h3 {
-    margin: 25px 0 15px 0;
+    margin: 25px 0 15px;
     font-size: 24px;
   }
 }
 .why_us_item p {
   margin-bottom: 30px;
-  font: 14px "montserrat";
+  font: 13px "montserrat";
   padding: 0 35px;
 }
 @media screen and (min-width: 768px) {
   .why_us_item p {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 50px;
     padding: 0;
   }
@@ -277,10 +280,6 @@ li {
     font-size: 16px;
     margin-bottom: 100px;
   }
-}
-
-.why_us_item:last-child {
-  margin-right: 0;
 }
 
 .ideas {
