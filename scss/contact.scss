@@ -1,85 +1,70 @@
 .send_us {
     background-image: url(../img/send_img.png);
-    height: 100vh;
+    //height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
     
     @media screen and (min-width: 992px) {
-        height: 570px;
+        max-height: 570px;
     }
 }
 
 .send_us_form {
     background: $white;
-    width: 45%;
-    height: 250px;
-    position: absolute;
-    bottom: 0;
-    right: 15%;
+    width: 100%;
+    max-width: 480px;
+    margin: 30px auto;
+    padding: 30px;
     
     @media screen and (min-width: 768px) {
-        width: 35%;
-        height: 280px;
+        margin: 50px auto;    
     }
     
     @media screen and (min-width: 992px) {
-        width: 30%;
-        height: 320px;
+        width: 390px;
+        margin: 50px 0 0 450px;
     }
     
     @media screen and (min-width: 1200px) {
-        width: 25%;
-        height: 400px;
+        margin: 50px 0 0 700px;
     }
     
     h2 {
         color: $black;
         font: bold 20px 'kepler_std';
-        padding: 30px 0 10px;
+        margin-bottom: 15px;
         text-align: center;
         
         @media screen and (min-width: 768px) {
             font-size: 24px;
-            padding: 35px 0 20px;
+            margin-bottom: 20px;
         }
         
         @media screen and (min-width: 992px) {
             font-size: 26px;
-        }
-        
-        @media screen and (min-width: 1200px) {
-            font-size: 30px;
-            padding: 40px 0 35px;
+            margin-bottom: 30px;
         }
     }
     
-    input {
+    input[type='text'],
+    input[type='email']{
         height: 30px;
-        width: 75%;
-        padding: 3%;
-        margin-left: 12%;
-        font: normal 12px 'montserrat';
+        width: 100%;
+        padding: 5px 8px;
+        margin: 10px 0;
+        font: normal 14px 'montserrat';
         border: 0;
         border-bottom: 1px solid $gray;
 
         
         @media screen and (min-width: 768px) {
             font-size: 14px;
-            margin-left: 8%;
         }
         
         @media screen and (min-width: 992px) {
-            height: 35px;
-            width: 120%;
             font-size: 16px;
-            margin-left: 13%;
-        }
-        
-        @media screen and (min-width: 1400px) {
-            height: 44px;
-            width: 150%;
-            margin-left: 18%;
         }
     }
 }
@@ -87,23 +72,22 @@
 .button_send_us {
     background: $ligth-red;
     color: $white;
-    font: 13px 'montserrat';
-    padding: 7px 15px;
+    font: 16px 'montserrat';
+    padding: 10px 15px;
     border-radius: 45px;
     border: 0;
-    margin: 13% 0 0 10%;
+    margin: 20px auto 0;
+    display: block;
+    width: 50%;
     
     @media screen and (min-width: 768px) {
         padding: 8px 20px;
     }
     
     @media screen and (min-width: 992px) {
-        padding: 10px 25px;
+        padding: 13px 15px;
+        margin: 80px 0 10px;
         font-size: 14px;
-        margin: 25% 0 0 12%;
-    }
-    
-    @media screen and (min-width: 1300px) {
-        margin: 40% 0 0 17%;
+        width: 30%;
     }
 }
