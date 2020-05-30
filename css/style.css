@@ -790,4 +790,104 @@ li {
   border: 5px solid transparent;
   border-right: 10px solid #454851;
 }
+
+.send_us {
+  background-image: url(../img/send_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.send_us_form {
+  background: #fff;
+  width: 100%;
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .send_us_form {
+    margin: 50px auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .send_us_form {
+    width: 390px;
+    margin: 170px 0 0 50%;
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .send_us_form {
+    margin-left: 60%;
+  }
+}
+.send_us_form h2 {
+  color: #000;
+  font: bold 20px "kepler_std";
+  margin-bottom: 15px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .send_us_form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .send_us_form h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+.send_us_form input[type=text],
+.send_us_form input[type=email] {
+  height: 30px;
+  width: 100%;
+  padding: 5px 8px;
+  margin: 10px 0;
+  font: normal 14px "montserrat";
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+}
+@media screen and (min-width: 768px) {
+  .send_us_form input[type=text],
+.send_us_form input[type=email] {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .send_us_form input[type=text],
+.send_us_form input[type=email] {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+}
+
+.button_send_us {
+  background: #f31131;
+  color: #fff;
+  font: 16px "montserrat";
+  padding: 10px 15px;
+  border-radius: 45px;
+  border: 0;
+  margin: 20px auto 0;
+  display: block;
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .button_send_us {
+    padding: 8px 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .button_send_us {
+    padding: 13px 15px;
+    margin: 40px 0 0;
+    font-size: 14px;
+    width: 30%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
