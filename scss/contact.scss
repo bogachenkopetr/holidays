@@ -1,14 +1,9 @@
 .send_us {
     background-image: url(../img/send_img.png);
-    //height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     overflow: hidden;
-    
-    @media screen and (min-width: 992px) {
-        max-height: 570px;
-    }
 }
 
 .send_us_form {
@@ -24,11 +19,12 @@
     
     @media screen and (min-width: 992px) {
         width: 390px;
-        margin: 50px 0 0 450px;
+        margin: 170px 0 0 50%;
+        padding: 40px;
     }
     
     @media screen and (min-width: 1200px) {
-        margin: 50px 0 0 700px;
+        margin-left: 60%;
     }
     
     h2 {
@@ -45,6 +41,7 @@
         @media screen and (min-width: 992px) {
             font-size: 26px;
             margin-bottom: 30px;
+            text-align: left;
         }
     }
     
@@ -58,13 +55,13 @@
         border: 0;
         border-bottom: 1px solid $gray;
 
-        
         @media screen and (min-width: 768px) {
             font-size: 14px;
         }
         
         @media screen and (min-width: 992px) {
             font-size: 16px;
+            margin: 15px 0;
         }
     }
 }
@@ -86,7 +83,7 @@
     
     @media screen and (min-width: 992px) {
         padding: 13px 15px;
-        margin: 80px 0 10px;
+        margin: 40px 0 0;
         font-size: 14px;
         width: 30%;
     }
