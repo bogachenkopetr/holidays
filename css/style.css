@@ -890,4 +890,43 @@ li {
     width: 30%;
   }
 }
+
+.footer {
+  background: #171d1c;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer_section {
+  display: flex;
+}
+
+.footer_list_left {
+  display: flex;
+}
+.footer_list_left li {
+  font: normal 14px "montserrat";
+  line-height: 1.8;
+}
+.footer_list_left span {
+  font: normal 16px "montserrat";
+  font-weight: 600;
+}
+
+.column {
+  margin-right: 30px;
+}
+
+.foter_list_right {
+  margin-left: 160px;
+  text-align: right;
+}
+.foter_list_right p {
+  font: normal 14px "montserrat";
+  line-height: 1.8;
+}
+.foter_list_right span {
+  font: normal 16px "montserrat";
+  font-weight: 600;
+}
 /*# sourceMappingURL=style.css.map */

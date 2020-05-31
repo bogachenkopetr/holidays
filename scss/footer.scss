@@ -1,1 +1,42 @@
- 
+.footer {
+    background: $ligth-black;
+    color: $white;
+    padding: 50px 0;
+}
+
+.footer_section {
+    display: flex;
+}
+
+.footer_list_left {
+    display: flex;
+    
+    li {
+        font: normal 14px 'montserrat';
+        line-height: 1.8;
+    }
+    
+    span {
+         font: normal 16px 'montserrat';
+         font-weight: 600; 
+    }
+}
+
+.column{
+    margin-right: 30px;
+}
+
+.foter_list_right {
+    margin-left: 160px;
+    text-align: right;
+    
+    p {
+        font: normal 14px 'montserrat';
+        line-height: 1.8;
+    }
+    
+    span {
+         font: normal 16px 'montserrat';
+         font-weight: 600; 
+    }
+}
