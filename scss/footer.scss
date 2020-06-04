@@ -13,7 +13,7 @@
 }
 
 .footer_list_left {
-    flex: 0 0 50%; // растяг нет, сжматься нет,шир
+    flex: 0 0 50%;
     
     @media screen and (min-width: 992px) {
         display: flex;
@@ -21,9 +21,9 @@
     }
     
     li {
-        font: normal 18px 'montserrat';
-        line-height: 1.8;
-        margin-bottom: 25px;
+        font: normal 16px 'montserrat';
+        line-height: 1.5;
+        margin-bottom: 15px;
         
         &:last-child {
             margin-bottom: 0;
@@ -35,13 +35,14 @@
         }
     }
     
-    a {
+    a:hover {
         color: $white;
+        text-decoration: underline;
     }
 }
 
 .column {
-    & > a { // непосредственно вложен
+    & > a {
         font-weight: bold;
         
         @media screen and (min-width: 992px) {
@@ -76,15 +77,15 @@
     
     @media screen and (min-width: 992px) {
         flex: 0 0 20%;
+        font: normal 14px 'montserrat';
     }
     
     p {
-        font: normal 14px 'montserrat';
         line-height: 1.8;
     }
     
     h2 {
-         font: normal 16px 'montserrat';
+         font-size: 16px;
          font-weight: 600; 
     }
 }

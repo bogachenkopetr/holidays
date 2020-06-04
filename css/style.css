@@ -915,9 +915,9 @@ li {
   }
 }
 .footer_list_left li {
-  font: normal 18px "montserrat";
-  line-height: 1.8;
-  margin-bottom: 25px;
+  font: normal 16px "montserrat";
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
 .footer_list_left li:last-child {
   margin-bottom: 0;
@@ -928,8 +928,9 @@ li {
     font-size: 14px;
   }
 }
-.footer_list_left a {
+.footer_list_left a:hover {
   color: #fff;
+  text-decoration: underline;
 }
 
 .column > a {
@@ -967,14 +968,14 @@ li {
 @media screen and (min-width: 992px) {
   .footer_list_right {
     flex: 0 0 20%;
+    font: normal 14px "montserrat";
   }
 }
 .footer_list_right p {
-  font: normal 14px "montserrat";
   line-height: 1.8;
 }
 .footer_list_right h2 {
-  font: normal 16px "montserrat";
+  font-size: 16px;
   font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
