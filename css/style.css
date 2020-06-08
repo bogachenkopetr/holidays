@@ -928,8 +928,10 @@ li {
     font-size: 14px;
   }
 }
-.footer_list_left a:hover {
+.footer_list_left a {
   color: #fff;
+}
+.footer_list_left a:hover {
   text-decoration: underline;
 }
 
@@ -964,12 +966,7 @@ li {
 .footer_list_right {
   flex: 0 0 50%;
   text-align: right;
-}
-@media screen and (min-width: 992px) {
-  .footer_list_right {
-    flex: 0 0 20%;
-    font: normal 14px "montserrat";
-  }
+  font: normal 14px "montserrat";
 }
 .footer_list_right p {
   line-height: 1.8;
@@ -977,5 +974,10 @@ li {
 .footer_list_right h2 {
   font-size: 16px;
   font-weight: 600;
+}
+@media screen and (min-width: 992px) {
+  .footer_list_right {
+    flex: 0 0 20%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
